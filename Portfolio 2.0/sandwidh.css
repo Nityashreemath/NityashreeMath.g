@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: Montserrat;
+    list-style: none;
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+}
+header{
+    position: fixed;
+    top:0%;
+    right: 0%;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: auto;
+}
+.logo{
+    padding-top:15px;
+    padding-left: 45px;
+}
+.navmenu{
+    display: flex;
+  
+}
+.navmenu a{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 20px;
+    padding-right: 40px;
+}
+.navmenu a:hover{
+    color: #FF00B8;
+    transition: 4ms;
+}
+
+.he h1{
+        color: white;
+        padding-top: 50px;
+        display: flex;
+        text-align: center;
+        padding-left: 45% 
+}
+.img{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 0%;
+}
+.intro{
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 100%;
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0px;
+    align-items: center;
+    padding-bottom: 0;
+    margin: 0;
+}
+.left{
+    padding-left: 80px;
+    color: white;
+}
+.right{
+    padding-right: 80px;
+    color: white;
+    padding-left: 40%;
+    margin: 0;
+}
+.flow{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 0;
+}
+.flow h1{
+    color: white;
+}
+.flow p{
+    color:white;
+    font-size: 14px;
+}
+.flow a{
+    color: white;
+}
+.flow a:hover{
+    color:#FF00B8;
+    font-size: 20px;}
+
+.flow img{
+    padding-left: 0%;
+}
+.kgh{
+padding-left: 20%;
+}
+    footer{
+        padding-right: 0px;
+        padding-left: 75px;
+        width: 100%;
+        min-height: 15vh;
+        display: grid;
+        grid-template-columns: repeat(2, 3fr);
+        grid-gap: 500px;
+        align-items: center;
+        color: #ffffff;
+    }
+    .acc a {
+        color:#FF00B8;
+    }
+    .acc a :hover{
+        color: #ffffff;
+    }
+img{
+    padding-left: 20%;
+}
